@@ -1,0 +1,464 @@
+
+html{
+  scroll-behavior:smooth;
+}
+section{
+  background-color: #fcfcfc;
+ }
+.sponsorlar{
+  display: inline-block;
+}
+
+.sponsorlar button{
+  background-color:#fcfcfc ;
+  color: black;
+  box-shadow: 0 0 10px rgba(0,0,0,.3);
+  border-radius: 12px;
+}
+
+.sponsorlar button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.sponsorlar button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.sponsorlar button:hover span {
+  padding-right: 25px;
+}
+
+.sponsorlar button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.pic{
+    background-color:#fcfcfc;
+    position: relative;
+    display:flex ;
+    float:left;
+    overflow: hidden;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,.3);
+    box-shadow: 0 0 10px rgba(0,0,0,.3);
+  }
+.pic img{
+    object-fit: contain;
+    transition-delay: 5s;
+    animation: forwards;
+}
+  
+.sponsorlar button{
+  font-size:30px;
+  width: 500px;
+  margin-left: 105px;
+  margin-bottom: 10px;
+}
+.pic{
+  font-size:20px;
+  width: 300px;
+  margin-bottom: 10px;
+  height: 400px;
+  width: 400px;
+  margin: 20px 2.5% 20px 6%;
+}
+.pic>img{
+  height:360px;
+  width:360px;
+  -webkit-transition:all 1s ease;
+  -moz-transition:all 1s ease;
+  -o-transition:all 1s ease;
+  -ms-transition:all 1s ease;
+  transition:all 1s ease;
+}
+
+.pic>img:hover{
+  width: 400px;
+  height: 400px;
+}
+
+@media screen and (max-width:2560px){
+
+  .sponsorlar button{
+    font-size:30px;
+    width: 500px;
+    margin-left: 105px;
+    margin-bottom: 10px;
+  }
+  .pic{
+    font-size:20px;
+    width: 300px;
+    margin-bottom: 10px;
+    height: 400px;
+    width: 400px;
+    margin: 20px 2.5% 20px 6%;
+  }
+  .pic>img{
+    height:360px;
+    width:360px;
+    -webkit-transition:all 1s ease;
+    -moz-transition:all 1s ease;
+    -o-transition:all 1s ease;
+    -ms-transition:all 1s ease;
+    transition:all 1s ease;
+  }
+  
+  .pic>img:hover{
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width:2424px){
+
+  .sponsorlar button{
+    font-size:28px;
+    width: 380px;
+    margin-left: 155px;
+    margin-bottom: 10px;
+  }
+  .pic{
+    font-size:20px;
+    margin-left: 43px;
+    margin-bottom: 10px;
+    height: 320px;
+    width: 320px;
+    margin: 20px 5% 20px 6%;
+  }
+  .pic>img{
+    height:300px;
+    width:300px;
+    -webkit-transition:all 1s ease;
+    -moz-transition:all 1s ease;
+    -o-transition:all 1s ease;
+    -ms-transition:all 1s ease;
+    transition:all 1s ease;
+  }
+  
+  .pic>img:hover{
+    width: 320px;
+    height: 320px;
+  }
+}
+
+@media screen and (max-width:2300px){
+
+  .sponsorlar button{
+    font-size:26px;
+    width: 350px;
+    margin-left: 148px;
+    margin-bottom: 10px;
+  }
+  .pic{
+    font-size:20px;
+    margin-left: 43px;
+    margin-bottom: 10px;
+    height: 300px;
+    width: 300px;
+    margin: 20px 5% 20px 6%;
+  }
+  .pic>img{
+    height:280px;
+    width:280px;
+    -webkit-transition:all 1s ease;
+    -moz-transition:all 1s ease;
+    -o-transition:all 1s ease;
+    -ms-transition:all 1s ease;
+    transition:all 1s ease;
+  }
+  
+  .pic>img:hover{
+    width: 300px;
+    height: 300px;
+  }
+}
+
+
+@media screen and (max-width:2150px){
+
+  .sponsorlar button{
+    font-size:26px;
+    width: 350px;
+    margin-left: 148px;
+    margin-bottom: 10px;
+  }
+  .pic{
+    font-size:20px;
+    margin-left: 43px;
+    margin-bottom: 10px;
+    height: 280px;
+    width: 280px;
+    margin: 20px 5% 20px 6%;
+  }
+  .pic>img{
+    height:250px;
+    width:250px;
+    -webkit-transition:all 1s ease;
+    -moz-transition:all 1s ease;
+    -o-transition:all 1s ease;
+    -ms-transition:all 1s ease;
+    transition:all 1s ease;
+  }
+  
+  .pic>img:hover{
+    width: 280px;
+    height: 280px;
+  }
+}
+
+@media screen and (max-width:2000px){
+
+  .sponsorlar button{
+    font-size:23px;
+    width: 300px;
+    margin-left: 148px;
+    margin-bottom: 10px;
+  }
+  .pic{
+    font-size:20px;
+    margin-left: 43px;
+    margin-bottom: 10px;
+    height: 240px;
+    width: 240px;
+    margin: 20px 5% 20px 6%;
+  }
+  .pic>img{
+    height:230px;
+    width:230px;
+    -webkit-transition:all 1s ease;
+    -moz-transition:all 1s ease;
+    -o-transition:all 1s ease;
+    -ms-transition:all 1s ease;
+    transition:all 1s ease;
+  }
+  
+  .pic>img:hover{
+    width: 240px;
+    height: 240px;
+  }
+}
+
+
+
+@media screen and (max-width:1650px){
+
+  .sponsorlar button{
+    font-size:24px;
+    width: 320px;
+    margin-left: 148px;
+    margin-bottom: 10px;
+  }
+  .pic{
+    font-size:20px;
+    margin-left: 43px;
+    margin-bottom: 10px;
+    height: 250px;
+    width: 250px;
+    margin: 20px 5% 20px 6%;
+  }
+  .pic>img{
+    height:220px;
+    width:220px;
+    -webkit-transition:all 1s ease;
+    -moz-transition:all 1s ease;
+    -o-transition:all 1s ease;
+    -ms-transition:all 1s ease;
+    transition:all 1s ease;
+  }
+  
+  .pic>img:hover{
+    width: 250px;
+    height: 250px;
+  }
+}
+
+
+
+@media screen and (max-width:1440px){
+
+  .sponsorlar button{
+    font-size:20px;
+    width: 300px;
+    margin-left: 43px;
+    margin-bottom: 10px;
+  }
+  .pic{
+    font-size:20px;
+    width: 300px;
+    margin-left: 43px;
+    margin-bottom: 10px;
+    height: 180px;
+    width: 180px;
+    margin: 20px 5% 20px 7%;
+  }
+  .pic>img{
+    height:160px;
+    width:160px;
+    -webkit-transition:all 1s ease;
+    -moz-transition:all 1s ease;
+    -o-transition:all 1s ease;
+    -ms-transition:all 1s ease;
+    transition:all 1s ease;
+  }
+  
+  .pic>img:hover{
+    width: 180px;
+    height: 180px;
+  }
+}
+
+
+@media screen and (max-width:1024px){
+  .sponsorlar button{
+    font-size:15px;
+    width: 220px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+  }
+  .pic{
+    height: 175px;
+    width: 175px;
+    margin: 20px 40px 20px 40px;
+  }
+  .pic>img{
+    height:165px;
+    width:165px;
+    -webkit-transition:all 1s ease;
+    -moz-transition:all 1s ease;
+    -o-transition:all 1s ease;
+    -ms-transition:all 1s ease;
+    transition:all 1s ease;
+  }
+  
+  .pic>img:hover{
+    width: 175px;
+    height: 175px;
+  }
+
+}
+
+@media screen and (max-width:768px){
+  .sponsorlar button{
+    font-size:15px;
+    width: 170px;
+    margin-left: 13px;
+    margin-bottom: 10px;
+  }
+  .pic{
+    height: 175px;
+    width: 175px;
+    margin: 20px 40px 20px 40px;
+  }
+  .pic>img{
+    height:165px;
+    width:165px;
+    -webkit-transition:all 1s ease;
+    -moz-transition:all 1s ease;
+    -o-transition:all 1s ease;
+    -ms-transition:all 1s ease;
+    transition:all 1s ease;
+  }
+  
+  .pic>img:hover{
+    width: 175px;
+    height: 175px;
+  }
+
+}
+
+
+@media screen and (max-width:425px){
+  .sponsorlar button{
+    font-size:13px;
+    width: 190px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+  }
+  .pic{
+    height: 125px;
+    width: 125px;
+    margin: 20px 40px 20px 40px;
+  }
+  .pic>img{
+    height:115px;
+    width:115px;
+    -webkit-transition:all 1s ease;
+    -moz-transition:all 1s ease;
+    -o-transition:all 1s ease;
+    -ms-transition:all 1s ease;
+    transition:all 1s ease;
+  }
+  
+  .pic>img:hover{
+    width: 125px;
+    height:125px;
+  }
+
+}
+
+@media screen and (max-width:375px){
+  .sponsorlar button{
+    font-size:11px;
+    width: 162px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+  }
+  .pic{
+    height: 115px;
+    width: 115px;
+    margin: 20px 42px 20px 30px;
+  }
+  .pic>img{
+    height:115px;
+    width:115px;
+    -webkit-transition:all 1s ease;
+    -moz-transition:all 1s ease;
+    -o-transition:all 1s ease;
+    -ms-transition:all 1s ease;
+    transition:all 1s ease;
+  }
+  
+  .pic>img:hover{
+    width: 125px;
+    height:125px;
+  }
+
+}
+
+@media screen and (max-width:320px){
+  .sponsorlar button{
+    font-size:13px;
+    width: 182px;
+    margin-left: 65px;
+    margin-bottom: 10px;
+  }
+  .pic{
+    height: 150px;
+    width: 150px;
+    margin: 20px 32px 20px 80px;
+  }
+  .pic>img{
+    height:145px;
+    width:145px;
+    -webkit-transition:all 1s ease;
+    -moz-transition:all 1s ease;
+    -o-transition:all 1s ease;
+    -ms-transition:all 1s ease;
+    transition:all 1s ease;
+  }
+  
+  .pic>img:hover{
+    width: 150px;
+    height:150px;
+  }
+
+}
