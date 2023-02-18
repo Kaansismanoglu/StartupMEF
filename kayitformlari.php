@@ -20,7 +20,7 @@
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
     <!-- Google tag (gtag.js) -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-1WJZGJQG0W"></script>
+	<script async src="#"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
 
@@ -29,7 +29,7 @@
 		}
 		gtag('js', new Date());
 
-		gtag('config', 'G-1WJZGJQG0W');
+		gtag('config', '#');
 	</script>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link href="https://fonts.googleapis.com/css?family=Marck+Script" rel="stylesheet">
