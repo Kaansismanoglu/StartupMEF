@@ -1,68 +1,4 @@
 <? ob_start(); ?>
-<?php
-
-// //require 'PHPMailer/src/Exception.php';
-// require 'PHPMailer/src/PHPMailer.php';
-// require 'PHPMailer/src/SMTP.php';
-
-// use PHPMailer\PHPMailer\PHPMailer;
-
-// $mail = new PHPMailer();
-
-// $mail->Host = 'smtpout.secureserver.net';
-// $mail->Username = 'info@startupmef.club';
-// $mail->Password = 'startupciyiz';
-// $mail->Port = 465;
-// $mail->SMTPSecure = 'ssl';
-
-// $mail->isSMTP();
-// $mail->SMTPAuth = true;
-
-// $mail->isHTML(true);
-
-// $mail->CharSet = "UTF-8";
-
-// $mail->setLanguage('tr', 'language/');
-
-// $mail->setFrom('info@startupmef.club', 'StartupMEF Destek');
-
-// $mail->addAddress('startupmefit@gmail.com', 'StartupMEF IT');
-
-// if (isset($_POST["name"], $_POST["telefon"], $_POST["email"], $_POST["konu"], $_POST["message"])) {
-
-//     $mail->Subject = $_POST["konu"] . ' hakkında ' . $_POST["name"] . ' kişisinden mesajınız var.';
-//     $mail->Body =
-//         '
-// 	<html>
-// 		<head>
-// 		</head>
-// 		<body>
-// 			<h2>Konu: ' . $_POST["konu"] . '</h2>
-//             <p>Ad ve Soyad : ' . $_POST["name"] . '</p>
-//             <p>Telefon: ' . $_POST["telefon"] . '</p>
-//             <p>Mail: ' . $_POST["email"] . '</p>
-//             <br>
-// 			<p>Mesaj: ' . $_POST["message"] . '</p>
-// 		</body>
-// 	</html>
-// ';
-
-
-
-//     $mail_gonder = $mail->send(); //Maili gönder ve sonucu değişkene aktar
-
-//     if ($mail_gonder) { //Mail gönderildi mi
-//         echo 'Mail başarıyla gönderildi';
-//         header("Refresh: 1; url= arasayfa/arasayfa1.php");
-//     } else {
-//         echo 'Mail gönderilemedi. Mail hata mesajı: ' . $mail->ErrorInfo; //Mail gönderilemezse sebebini belirten hata mesajını ekrana yazdır
-//     }
-// } else {
-//     echo '';
-//     $mail->SMTPDebug  = 1;
-// }
-
-?>
 
 <!DOCTYPE HTML>
 <html>
@@ -87,7 +23,7 @@
     <meta name="theme-color" content="#ffffff">
     <title>StartupMEF İletişim</title>
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1WJZGJQG0W"></script>
+    <script async src="#"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
 
@@ -96,20 +32,10 @@
         }
         gtag('js', new Date());
 
-        gtag('config', 'G-1WJZGJQG0W');
+        gtag('config', '#');
     </script>
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1WJZGJQG0W"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'G-1WJZGJQG0W');
-    </script>
+    <script async src="#"></script>
     <meta name="author" content="Kaan Sismanoglu">
     <meta name="description" content="StartupMEF Girişimcilik ve İnovasyon Kulübü, iletişim bilgilerimiz ve iletişim formumuz. Sormak istediğiniz soruları bizimle iletişime geçerek öğrenebilirsiniz. ">
     <meta charset="utf-8" />
