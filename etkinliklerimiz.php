@@ -22,7 +22,7 @@
     	<link href="https://fonts.googleapis.com/css?family=Marck+Script" rel="stylesheet">
 		<title>StartupMEF Etkinlikler</title>
 		<!-- Google tag (gtag.js) -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-1WJZGJQG0W"></script>
+	<script async src="#"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
 
@@ -31,7 +31,7 @@
 		}
 		gtag('js', new Date());
 
-		gtag('config', 'G-1WJZGJQG0W');
+		gtag('config', '#');
 	</script>
 		<meta name="author" content="Kaan Sismanoglu">
 	<meta name="description" content="StartupMEF Girişimcilik ve İnovasyon Kulübü olarak
